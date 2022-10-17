@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>form</h1>
+        <p>input</p>
+    </div>
+    <hr>
+    <form>
+        <!--Autofocus and Placeholder-->
+        <div>
+            <label>user name</label>
+            <input type="text" autofocus  placeholder="user name" />
+        </div>
+        <br>
+        <div>
+            <!--Requierd /minlenght and maxlenght-->
+            <label>password</label>
+            <input type="password" required  minlength="5" maxlength="10" />
+        </div>
+        <br>
+        <div>
+            <!--Value-->
+            <label>email</label>
+            <input type="email" value="EnterYourEmail@gmail.com"/>
+        </div>
+        <br>
+        <div>
+            <!--Range-->
+            <label>From 1 - 5 how much are you satsfied?</label>
+            <input type="range" name="range" />
+        </div>
+        <br>
+        <div>
+            <!--Phone / Max and Min-->
+            <label>phone</label>
+            <input type="number" min="10" max="25"/>
+        </div>
+        <hr>
+        <!--Readonly Displayed-->
+        <div>
+            <label>email</label>
+            <input type="email" value="Email@gmail,com" /> 
+            <br>
+            <input type="text" value="Example for read only" readonly disabled/>
+        </div>
+        <div>
+            <br>
+
+            <!--Radio-->
+
+
+        <input type="radio" name="Gender" value="Male" > Male
+        <input type="radio" name="Gender" value="Female" > Female
+    </div>
+    <br>
+            <!--Checkbox-->
+    <div>
+        <input type="checkbox" name="Question" value="Did You read" > Did you read the terms?
+        <input type="checkbox" name="Question" value="Did you accept" checked> Do you accept the terms?
+    </div>
+    </div>
+    <br>
+
+    </div>
+    <!--Color / submit and reset-->
+    <div>
+
+    <input type="color" placeholder="color"/> <br>
+    <input type="reset">
+    <input type="submit" value="Save">
+    
+    </div>
+    </form>
+
+</body>
+</html>
