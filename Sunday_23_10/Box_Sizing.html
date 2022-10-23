@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Box Sizing </title>
+
+
+    <style> 
+
+     * {
+
+        box-sizing: border-box;
+    } 
+
+          .no_padd {
+          border: 2px solid blue;
+          width: 200px;
+          height: 100px;
+          }
+        
+
+        .padd {
+          border: 2px solid red;
+          width: 200px;
+          height: 100px;  
+          padding:50px;
+        }
+        
+        .Box_Sizing-border {
+          border: 2px solid blue;
+          width: 200px;
+          height: 100px;
+          padding:50px;
+          box-sizing: border-box;
+          } 
+
+          .box-sizing-contant {
+          border: 2px solid blue;
+          width: 200px;
+          height: 100px;
+          padding:50px;
+          box-sizing: content-box;
+          
+          } 
+          
+          .box-border-contant {
+          border: 2px solid blue;
+          width: 200px;
+          height: 100px;
+          padding:50px;
+          box-sizing: border-box content-box;
+
+        </style>
+</head>
+<body>
+
+    <h1> Box Sizing</h1>
+
+    <div class="no_padd"> No padding </div>
+    <br>
+
+
+    <div class="padd"> Padding! </div>
+    <br>
+
+    <div class="Box_Sizing-border"> Border box border box 
+        Border box border box
+        Border box border box </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="box-sizing-contant"> Contant Box contant Box contant Box contant Box contant Box contant Box contant Box contant Box  </div>
+    <br> 
+    <br> 
+    <br> 
+    <br> 
+    <br> 
+    <br> 
+    
+    <div class="box-sizing-contant"> Contant Box contant Box contant Box contant Box contant Box contant Box contant Box contant Box contant Box contant Box contant Box contant Box  </div>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
