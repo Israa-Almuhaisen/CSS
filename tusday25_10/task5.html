@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task5</title>
+    <style>
+        body{ background: rgb(255, 194, 255);}
+        .container-grid{
+            margin-top: -13px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+            width: 100%;
+        }
+    #pad-marg{ margin-top: 10px;
+        margin-left:15%;
+        margin-right: 15%;
+
+    }
+    .container-flex
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        border: 9px solid black;
+                        background-color: black;
+
+                       
+
+                    }
+    .container-flex > div
+                    {
+                       
+                        width: 100%;
+                        text-align: center;
+                    }
+
+
+
+     @media only screen and (min-width:414px) and (max-width: 896px) {
+                body{ background: white;}
+                .container-flex {
+                        width: auto; 
+                                }
+                .container-grid{
+                        grid-template-columns: auto;
+                               }
+           
+           
+
+    
+
+        
+    </style>
+</head>
+<body>
+    <div id="pad-marg">
+        <div><h1>Media Query Demo</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ducimus cupiditate ea odio consequuntur est rem eius adipisci excepturi illo reprehenderit, laborum dolor eveniet alias et ipsam nobis dicta porro ipsa, itaque hic dolorem sed mollitia labore? Dolorem, non, repellat a ut odit doloremque veritatis accusamus facere alias tempore eum, soluta corrupti sed! A, iure repellat nemo fugit porro dolorem! </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsum tempore esse corporis, accusamus, nihil error numquam id neque quidem architecto exercitationem commodi veritatis quas repellat eaque voluptatum minima nulla quasi molestias non consectetur! Itaque quas velit officia eligendi nemo?</p>
+            
+        </div>
+        <h3><b>Box Columns</b></h3>
+        <div class="container-grid">
+            <div class="container-flex">
+               <img src="./cat1.jpeg" alt="cat1">
+               <div><h5 style="color:white">place kitten are great</h6></div>
+            </div>
+            <div class="container-flex">
+                <img src="./cat1.jpeg" alt="cat1">
+                <div><h5 style="color:white">place kitten are great</h6></div>
+             </div>
+             <div class="container-flex">
+                <img src="./cat1.jpeg" alt="cat1">
+                <div><h5 style="color:white">place kitten are great</h6></div>
+             </div>
+             <div class="container-flex">
+                <img src="./cat1.jpeg" alt="cat1">
+                <div><h5 style="color:white">place kitten are great</h6></div>
+             </div>
+             <div class="container-flex">
+                <img src="./cat1.jpeg" alt="cat1">
+                <div><h5 style="color:white">place kitten are great</h6></div>
+             </div>
+           
+                 
+            
+
+
+        </div>
+    
+
+    </div>
+    
+        
+
+</body>
+</html>
