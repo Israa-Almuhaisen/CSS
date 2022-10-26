@@ -1,0 +1,28 @@
+body{
+    margin-top:5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.header-container{
+    display: flex;
+    justify-content:space-between;
+    height: 100px;
+}
+
+.logo{
+    text-align: left;
+    display: flex;
+    flex-direction:row;
+    margin-top: -4px;
+
+}               
+.social{
+    text-align: right;
+
+}
+.fa-utensils{
+    font-size: xx-large;
+}                
+.logo > h2{
+    
+}
