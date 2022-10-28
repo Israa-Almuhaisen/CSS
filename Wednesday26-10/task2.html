@@ -5,42 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task2</title>
+
     <style>
         body{
-            background-color: rgba(128, 128, 128, 0.393);
+            background-color: gainsboro;
         }
-       .container{
-                    display: grid;
-                    /* grid-template-columns: auto; */
-                    grid-template-rows: auto auto auto auto auto;
-                    gap: 7px;
-                    border: 4px solid white;
-                    background-color:rgba(0, 0, 255, 0.596);
-                    font-size: larger;
-                    height:48vh;
-                    width:50% ;
-                    margin: 70px 25%;
-                    text-align: center;
-                    /* color: rgba(250, 235, 215, 0); */
-
-                 }
-        .one{
-           
-            
-            text-align: center;
-
+        .container-grid{
+            display: grid;
+            background-color: white;
+            grid-template-columns:auto ;
+            grid-auto-rows:40px;
+            width: 40%;
+            gap: 8px;
+            padding: 8px; 
+            margin-top: 100px;
+            margin-left: 500px;
         }
+        .container-grid > div{
+            background-color: rgb(213, 233, 249);
+            font-size:20px;
+            color :black;
+            padding:10px;
+        }
+        #boldfont{font-weight: bolder;}
+        #center{text-align: center;}
 
+         .span-grid1{
+            grid-row-start: 2; 
+            grid-row-end: 4;         
+        }
+        .span-grid2{
+            grid-row-start: 4; 
+            grid-row-end: 6;         
+        } 
+        button{background-color: white; border:none}
     </style>
-  
+
 </head>
 <body>
-    <div class="container">
-        <div class="one">I'm a card</div>
-        <div>I have content inside me.. lorem ipsum plapla</div>
-        <div>Here some stuff you need to read</div>
-        <div>And I a</div>
-        <div><button style="background-color: white">Big button</button></div>
+    <div class="container-grid">
+        <div id="boldfont">I'm a card</div>
+        <div  class="span-grid1">Lorem i pariatur porro ad atqueadip.here some Lorem i pariatur porro ad atqueadip Lorem i pariatur porro </div>
+        <div class="span-grid2" id="center" >and a <button>Big Button</button> </div> 
+        
     </div>
+    
 </body>
 </html>
